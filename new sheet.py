@@ -1,5 +1,3 @@
-import math
-
 pi = 3.49
 print(round(pi))
 print(math.ceil(pi))
