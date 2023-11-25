@@ -1,3 +1,17 @@
+try:
+    numerator = int(input("enter a number to divide: "))
+    denominator = int(input("enter a number to divide by: "))
+    result = numerator / denominator
+    print(result)
+except ZeroDivisionError:
+    print("you can't divide something by zero!")
+except Exception:
+    print("something went wrong :(")
+else:
+    print(result)
+
+import math
+
 pi = 3.49
 print(round(pi))
 print(math.ceil(pi))
